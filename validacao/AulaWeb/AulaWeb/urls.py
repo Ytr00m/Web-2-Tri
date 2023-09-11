@@ -22,4 +22,5 @@ urlpatterns = [
     path('login', autenticacao.logar, name='login'),
     path('home', paginas.home, name='home'),
     path('logout', autenticacao.deslogar, name='logout'),
+    path('trocar_senha', autenticacao.trocar_senha, name='trocar_senha'),
 ]
